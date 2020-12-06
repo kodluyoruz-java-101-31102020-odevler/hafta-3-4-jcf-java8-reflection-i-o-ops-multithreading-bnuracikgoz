@@ -1,0 +1,21 @@
+  ArrayList:
+  
+- Dinamik bir dizi ile çalışır.
+- Veri kümesi üzerinde eleman eklemeçıkarma işlemleri yoğunsa ArrayList yavaş
+çalışır. Çünkü, her araya ekleme ve çıkarma
+sonucu kaydırma işlemi yaptığından
+performans düşer.
+- Veri saklamak ve veriye erişimin yoğun
+olduğu durumlar için ArrayList tercih edilir.
+
+ LinkedList:
+
+- Çift yönlü bağlı listeyi kullanır.
+- Veri kümesi üzerinde eleman ekleme
+çıkarma işlemlerinde ArrayList’e göre
+hızlıdır. Çünkü, veri yapısı gereği herhangi
+bir kaydırma işlemine gerek duymaz.
+- Veri kümesi üzerinde yoğun bir şekilde
+ekleme-çıkarma gibi güncelleme işlemleri
+varsa bu durumda LinkedList tercih edilir.
+
